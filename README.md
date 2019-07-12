@@ -1,3 +1,3 @@
 # cordova-sunmi-inner-printer
 
-Looking for maintainer, i don't own the device anymore
+base on  cordova-sunmi-inner-printer
