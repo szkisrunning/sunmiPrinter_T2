@@ -721,13 +721,13 @@ public class Printer extends CordovaPlugin {
     });
   }
 
-  public void cutPaper(final CallbackContext callbackContext) {
+  public void cutPager(final CallbackContext callbackContext) {
     final IWoyouService printerService = woyouService;
     ThreadPoolManager.getInstance().executeTask(new Runnable() {
       @Override
       public void run() {
         try {
-          printerService.cutPaper(new ICallback.Stub() {
+          printerService.cutPager(new ICallback.Stub() {
             @Override
             public void onRunResult(boolean isSuccess) {
               if (isSuccess) {

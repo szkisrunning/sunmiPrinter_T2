@@ -95,9 +95,9 @@ module.exports = {
   printerStatusStopListener: function() {
     cordova.exec(function() {}, function() {}, "Printer", "printerStatusStopListener", []);
   },
-  cutPaper: function(){
+  cutPager: function(){
     return new Promise((resolve,reject)=>{
-      cordova.exec(resolve,reject,"Printer", "cutPaper", [])
+      cordova.exec(resolve,reject,"Printer", "cutPager", [])
     })
   }
 }

@@ -180,7 +180,7 @@ interface IWoyouService
 	/**
 	*切纸
 	*/
-	void cutPaper(in ICallback callback);
+	void cutPager(in ICallback callback);
 
 	/**
 	* 获取切刀次数
