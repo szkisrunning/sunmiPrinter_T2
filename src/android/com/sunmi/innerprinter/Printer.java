@@ -641,7 +641,7 @@ public class Printer extends CordovaPlugin {
     }
   }
 
-  public void printBarCode(String data, int symbology, int width, int height, int textPosition,
+  public void printBarCode(String data, int symbology,  int height,int width, int textPosition,
       final CallbackContext callbackContext) {
     final IWoyouService printerService = woyouService;
     final String d = data;
