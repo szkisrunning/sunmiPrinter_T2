@@ -69,9 +69,9 @@ module.exports = {
       cordova.exec(resolve, reject, "Printer", "printBitmap", [base64Data, width, height]);
     });
   },
-  printBarCode: function (barCodeData, symbology,  height,width, textPosition) {
+  printBarCode: function (barCodeData, symbology,  height, width,textPosition) {
     return new Promise(function (resolve, reject) {
-      cordova.exec(resolve, reject, "Printer", "printBarCode", [barCodeData, symbology, height,width, textPosition]);
+      cordova.exec(resolve, reject, "Printer", "printBarCode", [barCodeData, symbology,  height,width, textPosition]);
     });
   },
   printQRCode: function (qrCodeData, moduleSize, errorLevel) {
@@ -95,9 +95,9 @@ module.exports = {
   printerStatusStopListener: function() {
     cordova.exec(function() {}, function() {}, "Printer", "printerStatusStopListener", []);
   },
-  cutPager: function(){
+  cutPaper: function(){
     return new Promise((resolve,reject)=>{
-      cordova.exec(resolve,reject,"Printer", "cutPager", [])
+      cordova.exec(resolve,reject,"Printer", "cutPaper", [])
     })
   }
 }

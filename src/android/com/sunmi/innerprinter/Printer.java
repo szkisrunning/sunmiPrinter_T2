@@ -641,7 +641,7 @@ public class Printer extends CordovaPlugin {
     }
   }
 
-  public void printBarCode(String data, int symbology,  int height,int width, int textPosition,
+  public void printBarCode(String data, int symbology, int height,int width, int textPosition,
       final CallbackContext callbackContext) {
     final IWoyouService printerService = woyouService;
     final String d = data;
@@ -721,13 +721,13 @@ public class Printer extends CordovaPlugin {
     });
   }
 
-  public void cutPager(final CallbackContext callbackContext) {
+  public void cutPaper(final CallbackContext callbackContext) {
     final IWoyouService printerService = woyouService;
     ThreadPoolManager.getInstance().executeTask(new Runnable() {
       @Override
       public void run() {
         try {
-          printerService.cutPager(new ICallback.Stub() {
+          printerService.cutPaper(new ICallback.Stub() {
             @Override
             public void onRunResult(boolean isSuccess) {
               if (isSuccess) {

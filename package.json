@@ -1,5 +1,5 @@
 {
-  "_from": "git+https://github.com/labibramadhan/cordova-sunmi-inner-printer.git",
+  "_from": "git+https://github.com/szkisrunning/sunmiPrinter_T2.git",
   "_id": "cordova-sunmi-inner-printer@1.0.0",
   "_inBundle": false,
   "_integrity": "",
@@ -7,18 +7,18 @@
   "_phantomChildren": {},
   "_requested": {
     "type": "git",
-    "raw": "https://github.com/labibramadhan/cordova-sunmi-inner-printer",
-    "rawSpec": "https://github.com/labibramadhan/cordova-sunmi-inner-printer",
-    "saveSpec": "git+https://github.com/labibramadhan/cordova-sunmi-inner-printer.git",
-    "fetchSpec": "https://github.com/labibramadhan/cordova-sunmi-inner-printer.git",
+    "raw": "https://github.com/szkisrunning/sunmiPrinter_T2.git",
+    "rawSpec": "https://github.com/szkisrunning/sunmiPrinter_T2.git",
+    "saveSpec": "git+https://github.com/szkisrunning/sunmiPrinter_T2.git",
+    "fetchSpec": "https://github.com/szkisrunning/sunmiPrinter_T2.git",
     "gitCommittish": null
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "git+https://github.com/labibramadhan/cordova-sunmi-inner-printer.git#c94c6d26f3eb763aa96676024b41bcb12e0c692f",
-  "_spec": "https://github.com/labibramadhan/cordova-sunmi-inner-printer",
+  "_resolved": "git+https://github.com/szkisrunning/sunmiPrinter_T2.git#3c45a65d2bd8618341f9f83d17b9e1961d8adbba",
+  "_spec": "https://github.com/szkisrunning/sunmiPrinter_T2.git",
   "_where": "C:\\Users\\Administrator\\Desktop\\dddd\\kouzi-pad-app",
   "author": {
     "name": "Muhammad Labib Ramadhan"
