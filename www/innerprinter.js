@@ -99,5 +99,20 @@ module.exports = {
     return new Promise((resolve,reject)=>{
       cordova.exec(resolve,reject,"Printer", "cutPaper", [])
     })
+  },
+  commitPrinterBuffer: function(){
+    return new Promise((resolve,reject)=>{
+      cordova.exec(resolve,reject,"Printer", "commitPrinterBuffer", [])
+    })
+  },
+  enterPrinterBuffer:function(clean){
+    return new Promise((resolve,reject)=>{
+      cordova.exec(resolve,reject,"Printer", "enterPrinterBuffer", [clean])
+    })
+  },
+  exitPrinterBuffer:function(comit){
+    return new Promise((resolve,reject)=>{
+      cordova.exec(resolve,reject,"Printer", "exitPrinterBuffer", [comit])
+    })
   }
 }
